@@ -8,4 +8,4 @@ import { RouterOutlet } from '@angular/router';
   imports: [CommonModule, RouterOutlet],
   template: `<router-outlet></router-outlet>`,
 })
-export class AppComponent {}
+export class AppComponent { }
