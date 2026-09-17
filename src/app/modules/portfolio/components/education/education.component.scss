@@ -1,0 +1,121 @@
+:host {
+  margin-top: 25px;
+  padding: 35px 0;
+  background: var(--black-010);
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2 {
+    text-align: center;
+    margin: 0 0 35px 0;
+    font-size: 24px;
+    color: var(--white);
+  }
+
+  .education-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    width: 100%;
+
+    @media (max-width: 850px) {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+
+  .education-column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    h3 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--primary);
+      margin: 0;
+
+      svg {
+        stroke: var(--primary);
+      }
+    }
+
+    .cards-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+
+  .education-card {
+    background: var(--black);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 20px 24px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    &.certification {
+      &:hover {
+        border-color: #38bdf8;
+      }
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      flex-wrap: wrap;
+
+      h4 {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 700;
+        color: var(--white);
+        flex: 1;
+      }
+
+      .badge {
+        font-size: 11px;
+        font-weight: 600;
+        padding: 3px 8px;
+        border-radius: 4px;
+        background: rgba(47, 191, 113, 0.15);
+        color: var(--primary);
+        white-space: nowrap;
+
+        &.badge-accent {
+          background: rgba(56, 189, 248, 0.15);
+          color: #38bdf8;
+        }
+      }
+    }
+
+    .institution {
+      margin: 0;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    .period {
+      font-size: 12px;
+      color: var(--grey);
+      font-style: italic;
+    }
+  }
+}

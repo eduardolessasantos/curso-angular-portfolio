@@ -5,10 +5,9 @@ export interface IProjects {
   with: string;
   height: string;
   description: string;
-  links: [
-    {
-      name: string;
-      href: string;
-    }
-  ];
+  category?: string;
+  links: {
+    name: string;
+    href: string;
+  }[];
 }

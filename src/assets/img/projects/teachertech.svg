@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTeacherTech" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+    <linearGradient id="accentTeacherTech" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" rx="12" fill="url(#bgTeacherTech)"/>
+  
+  <!-- Central Card -->
+  <rect x="45" y="35" width="210" height="130" rx="10" fill="#022c22" stroke="#10b981" stroke-width="2"/>
+  
+  <!-- Robot/AI Icon -->
+  <circle cx="75" cy="72" r="14" fill="#047857"/>
+  <circle cx="71" cy="70" r="2.5" fill="#a7f3d0"/>
+  <circle cx="79" cy="70" r="2.5" fill="#a7f3d0"/>
+  <path d="M69 77c1.5 1.5 4.5 1.5 6 0" stroke="#a7f3d0" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  
+  <text x="100" y="72" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="800">TeacherTech</text>
+  <text x="100" y="86" fill="#a7f3d0" font-family="system-ui, sans-serif" font-size="10">Ensino &amp; Estudo com IA</text>
+  
+  <rect x="65" y="105" width="170" height="20" rx="4" fill="#065f46"/>
+  <text x="75" y="119" fill="#ecfdf5" font-family="system-ui, sans-serif" font-size="9">Criação autônoma de conteúdos</text>
+  <rect x="65" y="132" width="85" height="18" rx="4" fill="#10b981"/>
+  <text x="73" y="145" fill="#022c22" font-family="system-ui, sans-serif" font-size="9" font-weight="700">Flashcards &amp; IA</text>
+</svg>

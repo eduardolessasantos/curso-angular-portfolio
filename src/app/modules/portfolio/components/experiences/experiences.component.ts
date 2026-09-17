@@ -14,31 +14,31 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-        strong: 'Analista de Desenvolvimento de Sistemas Sênior',
-        p: 'Basis | Ago 2024 - Present',
+        strong: 'Senior Software Developer (.NET) | Sistemas de Gestão de RH – TJ-RJ',
+        p: 'Basis Tecnologia da Informação S.A. | Ago 2024 - Presente',
       },
-      text: '<p>Atuação no desenvolvimento e manutenção de sistemas administrativos voltados à gestão de recursos humanos do Poder Judiciário do Estado do Rio de Janeiro (PJERJ), no terceiro contrato consecutivo de prestação de serviço. Neste ciclo, aprofundei o uso de tecnologias modernas como .NET Core e Angular,consolidando práticas de integração por meio de APIs REST e web services SOAP, e intensificando o uso de procedures em banco de dados Oracle. A experiência permitiu aplicar conhecimentos adquiridos nos contratos anteriores com maior autonomia e responsabilidade técnica.</p>',
+      text: '<p>Desenvolvimento e evolução de sistemas críticos de Recursos Humanos do Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ), suportando operações diárias com milhares de magistrados e servidores. Desenvolvimento de APIs REST em .NET para integração entre sistemas internos e otimização de performance. Manipulação avançada de grandes volumes de dados em Oracle Database, garantindo integridade e consistência. Análise e resolução de incidentes críticos em produção assegurando alta disponibilidade e continuidade operacional. Modernização contínua de sistemas legados migrando estruturas monolíticas para arquitetura baseada em APIs e serviços distribuídos, além da construção de interfaces com Angular e manutenção de rotinas corporativas em C# e VB.NET.</p>',
     },
     {
       summary: {
-        strong: 'Analista de Desenvolvimento de Sistemas Master',
-        p: 'Spassu | Out 2019 - Ago 2024',
+        strong: 'Software Developer (.NET) Sênior',
+        p: 'Spassu Tecnologia e Serviços | Out 2019 - Jul 2024',
       },
-      text: '<p>Segundo contrato de prestação de serviço ao PJERJ, com foco em melhorias contínuas nos sistemas administrativos de RH. Atuei com Visual Studio (VB.NET, C#, ASP.NET), além de Angular para interfaces web. Nesse período, avancei no desenvolvimento de APIs RESTful, na modernização de funcionalidades legadas e na integração com o banco Oracle utilizando procedures. A experiência me proporcionou maior domínio sobre arquitetura de software e colaboração direta com equipes de análise e QA.</p>',
+      text: '<p>Atuação de quase 5 anos prestando serviços ao PJERJ com foco em sistemas administrativos críticos. Desenvolvimento de aplicações corporativas com C#, VB.NET e Angular. Criação de integrações entre sistemas utilizando APIs RESTful e banco de dados Oracle com procedures de alta complexidade. Sustentação e evolução de sistemas corporativos com alto volume de transações, aplicando rigorosas boas práticas de arquitetura (SOLID, Clean Code, Design Patterns). Atuação especializada em debugging avançado, diagnóstico de erros em produção e análise de performance.</p>',
     },
     {
       summary: {
-        strong: 'Analista de Desenvolvimento de Sistemas Pleno',
-        p: 'CTIS | Ago 2018 - Set 2019',
+        strong: 'Software Developer (.NET)',
+        p: 'SONDA | Ago 2018 - Set 2019',
       },
-      text: '<p>Primeira oportunidade de atuar diretamente no PJERJ como prestador de serviço em desenvolvimento de software. Contribuí com a evolução dos sistemas administrativos utilizando tecnologias da plataforma .NET, incluindo VB.NET, C# e ASP.NET, com foco em integração via web services SOAP e acesso ao banco Oracle por meio de procedures. Essa experiência foi fundamental para meu crescimento técnico, servindo de base para os contratos seguintes, com progressiva exposição a novas tecnologias e práticas de desenvolvimento.</p>',
+      text: '<p>Desenvolvimento e manutenção de sistemas corporativos administrativos em plataforma .NET (VB.NET, C# e ASP.NET) no PJERJ. Suporte a aplicações críticas, resolução de chamados de incidentes e sustentação de regras de negócio em ambiente corporativo estruturado seguindo padrões de qualidade, com integrações via web services SOAP e procedures em Oracle Database.</p>',
     },
     {
       summary: {
-        strong: 'Programador',
-        p: 'PIX Informática |  Jun 2017 - Ago 2018',
+        strong: 'Software Developer & Estagiário',
+        p: 'Pix Software - RJ | Jun 2015 - Ago 2018',
       },
-      text: '<p>Início da minha carreira profissional, dando continuidade ao trabalho realizado durante dois anos de estágio na empresa. Atuei no desenvolvimento e manutenção de sistemas voltados à área de produção, utilizando as ferramentas do Visual Studio com foco em VB.NET, C# e ASP.NET. Responsável também pelo levantamento de requisitos diretamente com os usuários e pela implementação de processos em banco de dados SQL Server.</p>',
+      text: '<p>Desenvolvimento de sistemas voltados ao segmento de produção industrial. Atuação contínua iniciada no estágio técnico (2015-2017) e promoção a desenvolvedor de software (2017-2018). Implementação de novas funcionalidades e correções em aplicações existentes em C#, VB.NET e ASP.NET, além de levantamento de requisitos com usuários finais e manipulação de banco de dados SQL Server.</p>',
     },
   ]);
 }

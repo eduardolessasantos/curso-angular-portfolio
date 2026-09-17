@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCodeCompare" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accentCodeCompare" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" rx="12" fill="url(#bgCodeCompare)"/>
+  
+  <!-- Terminal Window -->
+  <rect x="40" y="35" width="220" height="130" rx="8" fill="#090d16" stroke="#1e293b" stroke-width="2"/>
+  <!-- Window buttons -->
+  <circle cx="55" cy="50" r="4" fill="#ef4444"/>
+  <circle cx="67" cy="50" r="4" fill="#f59e0b"/>
+  <circle cx="79" cy="50" r="4" fill="#10b981"/>
+  
+  <text x="95" y="53" fill="#64748b" font-family="monospace" font-size="10">codecompare.dev</text>
+  
+  <!-- Content -->
+  <text x="55" y="80" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="15" font-weight="800">CodeCompare</text>
+  <text x="55" y="100" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Benchmarks • .NET 8 vs FastAPI vs Spring</text>
+  
+  <!-- Benchmark Bar Chart -->
+  <rect x="55" y="115" width="140" height="8" rx="2" fill="#38bdf8"/>
+  <rect x="55" y="128" width="100" height="8" rx="2" fill="#c084fc"/>
+  <rect x="55" y="141" width="55" height="8" rx="2" fill="#f59e0b"/>
+  <text x="202" y="122" fill="#38bdf8" font-family="monospace" font-size="8">48.2k rps</text>
+</svg>

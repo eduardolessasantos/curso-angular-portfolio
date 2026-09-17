@@ -1,0 +1,51 @@
+<div class="container">
+  <h2>Formação Acadêmica & Certificações</h2>
+
+  <div class="education-grid">
+    <div class="education-column">
+      <h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+          <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+        </svg>
+        Formação Acadêmica
+      </h3>
+
+      <div class="cards-wrapper">
+        @for(item of academicList(); track item.title){
+        <div class="education-card">
+          <div class="card-header">
+            <h4>{{ item.title }}</h4>
+            <span class="badge">{{ item.badge }}</span>
+          </div>
+          <p class="institution">{{ item.institution }}</p>
+          <span class="period">{{ item.period }}</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="education-column">
+      <h3>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8" r="7"/>
+          <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+        </svg>
+        Certificações
+      </h3>
+
+      <div class="cards-wrapper">
+        @for(item of certificationsList(); track item.title){
+        <div class="education-card certification">
+          <div class="card-header">
+            <h4>{{ item.title }}</h4>
+            <span class="badge badge-accent">{{ item.badge }}</span>
+          </div>
+          <p class="institution">{{ item.institution }}</p>
+          <span class="period">{{ item.period }}</span>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,17 +1,23 @@
 <div class="container">
-  <h2>Projetos desenvolvidos</h2>
+  <h2>Projetos em Destaque</h2>
 
   <ul>
     @for(item of arrayProjects(); track item){
     <li>
-      <button (click)="openDialog(item)">
-        <img
-          [src]="item.src"
-          [alt]="item.alt"
-          [attr.width]="item.with"
-          [attr.height]="item.height"
-          loading="lazy"
-        />
+      <button (click)="openDialog(item)" [title]="item.title">
+        <div class="project-thumb">
+          <img
+            [src]="item.src"
+            [alt]="item.alt"
+            loading="lazy"
+          />
+        </div>
+        <div class="project-info">
+          <h3>{{ item.title }}</h3>
+          @if(item.category){
+            <span>{{ item.category }}</span>
+          }
+        </div>
       </button>
     </li>
     }
