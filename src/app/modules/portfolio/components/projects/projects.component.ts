@@ -51,7 +51,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'Acessar o Blog Técnico',
-          href: 'https://fullstack-blog-edulessa.vercel.app/',
+          href: 'https://www.devedulessa.com.br/',
         },
       ],
     },
